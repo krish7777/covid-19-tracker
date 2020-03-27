@@ -1,3 +1,5 @@
+The website has been hosted on firebase . Link is https://learn-firebase-929a1.firebaseapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
