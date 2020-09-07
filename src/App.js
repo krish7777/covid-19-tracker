@@ -14,7 +14,6 @@ function App() {
         <MapChart setTooltipContent={setContent} />
         <ReactTooltip multiline={true}>{content}</ReactTooltip>
       </div>
-      <h1>end</h1>>
     </div>
   );
 }
