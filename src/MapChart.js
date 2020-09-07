@@ -9,8 +9,8 @@ import {
 } from "react-simple-maps";
 
 const colorScale = scaleQuantize()
-  .domain([0, 150])
-  .range(["#FFF5F0", "#BF181C", "#FCA689", "#FA7354", "#EA3C2E", "#BF181C"]);
+  .domain([0, 800000])
+  .range(["#FFABB9", "#FF593D", "#DA4B2E", "#933926", "#682D25", "#442325", "#291B25"]);
 const geoUrl =
   "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/india/india-states.json";
 
@@ -68,8 +68,8 @@ const MapChart = ({ setTooltipContent }) => {
                         state.confirmedCasesForeign;
                       setTooltipContent(
                         `${NAME_1} - ${state.confirmedCasesIndian +
-                          state.confirmedCasesForeign}C - ${state.deaths}D - ${
-                          state.discharged
+                        state.confirmedCasesForeign}C - ${state.deaths}D - ${
+                        state.discharged
                         }R`
                       );
                     } else {
